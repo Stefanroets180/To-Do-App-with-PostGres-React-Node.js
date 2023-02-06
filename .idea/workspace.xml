@@ -6,7 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="486c5dee-cd8a-46d7-b277-18d2968094ff" name="Changes" comment="Initialize project using Create React App">
-      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +98,8 @@
       <workItem from="1675321868449" duration="271000" />
       <workItem from="1675322254034" duration="1839000" />
       <workItem from="1675331227822" duration="38000" />
-      <workItem from="1675331312783" duration="5007000" />
+      <workItem from="1675331312783" duration="6016000" />
+      <workItem from="1675353889301" duration="1671000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project using Create React App">
       <created>1675282576560</created>
