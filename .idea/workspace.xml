@@ -6,10 +6,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="486c5dee-cd8a-46d7-b277-18d2968094ff" name="Changes" comment="Initialize project using Create React App">
+      <change afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/ListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ListItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Modal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +81,7 @@
       <recent name="$PROJECT_DIR$/src/client" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.start1">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -88,27 +92,10 @@
         <script value="build" />
       </scripts>
       <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="npm start" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/client/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
+      <node-options value="-r dotenv/config" />
+      <envs>
+        <env name="DOTENV_CONFIG_PATH" value="./&lt;your_env_dir&gt; " />
+      </envs>
       <method v="2" />
     </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -118,13 +105,36 @@
         <script value="start" />
       </scripts>
       <node-interpreter value="project" />
-      <envs />
+      <node-options value="-r dotenv/config" />
+      <envs>
+        <env name="DOTENV_CONFIG_PATH" value="./&lt;your_env_dir&gt; " />
+      </envs>
       <method v="2" />
     </configuration>
+    <configuration name="start1" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start1" />
+      </scripts>
+      <node-interpreter value="project" />
+      <node-options value="-r dotenv/config" />
+      <envs>
+        <env name="DOTENV_CONFIG_PATH" value="./&lt;your_env_dir&gt; " />
+      </envs>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="npm.npm start" />
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.start" />
+      <item itemvalue="npm.start1" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start1" />
         <item itemvalue="npm.start" />
-        <item itemvalue="npm.start (1)" />
         <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
@@ -157,7 +167,7 @@
       <workItem from="1676035141642" duration="1132000" />
       <workItem from="1676183838162" duration="80000" />
       <workItem from="1676222906301" duration="3312000" />
-      <workItem from="1676227973660" duration="38392000" />
+      <workItem from="1676227973660" duration="45378000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project using Create React App">
       <created>1675282576560</created>
