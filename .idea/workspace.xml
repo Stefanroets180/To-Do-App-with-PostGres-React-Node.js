@@ -7,8 +7,6 @@
   <component name="ChangeListManager">
     <list default="true" id="486c5dee-cd8a-46d7-b277-18d2968094ff" name="Changes" comment="Initialize project using Create React App">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ListHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ListHeader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/ListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ListItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Modal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
@@ -40,6 +38,14 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedIndex" value="1" />
   </component>
@@ -59,7 +65,7 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -71,7 +77,7 @@
       <recent name="$PROJECT_DIR$/src/client" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start (1)">
+  <component name="RunManager" selected="npm.start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -117,8 +123,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start (1)" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.start (1)" />
         <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
@@ -151,7 +157,7 @@
       <workItem from="1676035141642" duration="1132000" />
       <workItem from="1676183838162" duration="80000" />
       <workItem from="1676222906301" duration="3312000" />
-      <workItem from="1676227973660" duration="28960000" />
+      <workItem from="1676227973660" duration="38392000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project using Create React App">
       <created>1675282576560</created>
