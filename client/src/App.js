@@ -18,7 +18,12 @@ const App = () => {
             console.error(err)
         }
     }
-    useEffect(() => getData,[])
+
+    useEffect(() => {
+        if (authToken) {
+            getData()
+        }}
+    , [])
 
     console.log(tasks)
 

@@ -2,6 +2,7 @@ import { useState } from 'react'
 
 const Auth = () => {
     const [isLogIn, setIsLogin] = useState(true)
+    const [email, setEmail] = useState(null)
     const [error, setError] = useState(null)
 
     const viewLogin = (status) => {
