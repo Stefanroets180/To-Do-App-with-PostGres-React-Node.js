@@ -7,9 +7,8 @@
   <component name="ChangeListManager">
     <list default="true" id="486c5dee-cd8a-46d7-b277-18d2968094ff" name="Changes" comment="Initialize project using Create React App">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/ListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ListItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +148,7 @@
       <workItem from="1676035141642" duration="1132000" />
       <workItem from="1676183838162" duration="80000" />
       <workItem from="1676222906301" duration="3312000" />
-      <workItem from="1676227973660" duration="11301000" />
+      <workItem from="1676227973660" duration="13070000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project using Create React App">
       <created>1675282576560</created>

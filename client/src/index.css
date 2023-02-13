@@ -16,7 +16,7 @@ body{
     margin-top: 50px ;
 }
 
-.button-container{
+.button-container, .info-container {
     display: flex;
     align-items: center;
 }
@@ -37,6 +37,15 @@ body{
     display: flex;
     justify-content: space-between;
     border-bottom: rgba(0,0,0,0.05) 1px solid;
-
 }
 
+/*List Item*/
+
+.list-item {
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.08) 0 0 0 1px;
+    display: flex;
+    justify-content: space-between;
+}
