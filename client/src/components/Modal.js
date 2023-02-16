@@ -1,12 +1,14 @@
 import { useState } from 'react'
+import { useCookies } from 'react-cookie'
 
-const Modal = ({ mode, setShowModal, getData, task}) => {
+const Modal = ({ mode, setShowModal, getData, task }) => {
+    const [cookies, setCookie, removeCookie] = useCookies(null)
     const editMode = mode === 'edit' ? true : false
 
     const [data, setData] = useState({
-       user_email: editMode ? task.user_email : 'stefan@test.com',
-       title: editMode ? task.title : null,
-       progress: editMode ? task.progress : 50,
+        user_email: editMode ? task.user_email : cookies.Email,
+        title: editMode ? task.title : null,
+        progress: editMode ? task.progress : 50,
         date: editMode ? task.date : new Date()
     })
 
@@ -15,7 +17,7 @@ const Modal = ({ mode, setShowModal, getData, task}) => {
         try {
             const response = await fetch(`${process.env.REACT_APP_SERVERURL}/todos`, {
                 method: "POST",
-                headers:{'Content-Type': 'application/json'},
+                headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(data)
             })
             if (response.status === 200) {
@@ -23,17 +25,17 @@ const Modal = ({ mode, setShowModal, getData, task}) => {
                 setShowModal(false)
                 getData()
             }
+
         } catch(err) {
             console.error(err)
         }
-
     }
 
 
     const editData = async(e) => {
         e.preventDefault()
         try {
-           const response = await fetch(`${process.env.REACT_APP_SERVERURL}${task.id}`,{
+            const response = await fetch(`${process.env.REACT_APP_SERVERURL}/todos/${task.id}`, {
                 method: 'PUT',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(data)
@@ -42,20 +44,23 @@ const Modal = ({ mode, setShowModal, getData, task}) => {
                 setShowModal(false)
                 getData()
             }
-        }catch (err) {
+        } catch (err) {
             console.error(err)
         }
     }
 
-    const handleChange = (e) => {
-        const {name, value} = e.target
 
-        setData(data=> ({
+
+    const handleChange = (e) => {
+        const { name, value } = e.target
+
+        setData(data => ({
             ...data,
             [name] : value
         }))
 
         console.log(data)
+
     }
 
     return (
@@ -75,7 +80,7 @@ const Modal = ({ mode, setShowModal, getData, task}) => {
                         value={data.title}
                         onChange={handleChange}
                     />
-                    <br/>
+                    <br />
                     <label for="range">Drag to select your current progress</label>
                     <input
                         required
@@ -87,7 +92,7 @@ const Modal = ({ mode, setShowModal, getData, task}) => {
                         value={data.progress}
                         onChange={handleChange}
                     />
-                    <input className={mode} type="submit" onClick={editMode ? editData: postData}/>
+                    <input className={mode} type="create"onClick={editMode ? editData: postData} />
                 </form>
 
             </div>

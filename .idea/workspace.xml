@@ -6,8 +6,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="486c5dee-cd8a-46d7-b277-18d2968094ff" name="Changes" comment="Initialize project using Create React App">
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/npm_start.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.idea/untitled3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/logo192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/logo512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/ListHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ListHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/ListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ListItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/ProgressBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ProgressBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +62,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/standardSchemas/xhtml1-strict.dtd" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedIndex" value="1" />
   </component>
@@ -67,6 +87,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/server" />
@@ -76,7 +99,7 @@
       <recent name="$PROJECT_DIR$/src/client" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.start1">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -121,7 +144,6 @@
     </configuration>
     <list>
       <item itemvalue="JavaScript Debug.Debug Application" />
-      <item itemvalue="npm.npm start" />
       <item itemvalue="npm.build" />
       <item itemvalue="npm.start" />
       <item itemvalue="npm.start1" />
@@ -162,7 +184,8 @@
       <workItem from="1676035141642" duration="1132000" />
       <workItem from="1676183838162" duration="80000" />
       <workItem from="1676222906301" duration="3312000" />
-      <workItem from="1676227973660" duration="55212000" />
+      <workItem from="1676227973660" duration="63468000" />
+      <workItem from="1676543082958" duration="1687000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project using Create React App">
       <created>1675282576560</created>
